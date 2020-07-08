@@ -7,13 +7,13 @@ def line(array)
   if array.size==0
     puts "the line is currently empty."
   else
-  print "The line is currently:"
+  ch="The line is currently:"
   number=1
   array.each do |name|
-    print " #{number}. #{name}"
+    ch<<" #{number}. #{name}"
     number+=1
   end
-  print "\n"
+  puts ch
 end
 end
 
