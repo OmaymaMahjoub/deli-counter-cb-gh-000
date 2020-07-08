@@ -5,7 +5,7 @@ end
 
 def line(array)
   if array.size==0
-    puts "the line is empty"
+    puts "the line is currently empty."
   else
   print "The line is currently:"
   number=1
@@ -27,4 +27,3 @@ def now_serving(array)
   return array
 end
 
-now_serving(["om","j","p"])
