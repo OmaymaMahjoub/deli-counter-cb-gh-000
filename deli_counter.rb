@@ -1,11 +1,11 @@
 # Write your code here.
 def take_a_number(array, name)
-  puts "Welcome, #{name}. You are number #{array.size} in line."
+  puts "Welcome, #{name}. You are number #{array.size+1} in line."
 end
 
 def line(array)
   if array.size==0
-    puts "the line is currently empty."
+    puts "The line is currently empty."
   else
   ch="The line is currently:"
   number=1
