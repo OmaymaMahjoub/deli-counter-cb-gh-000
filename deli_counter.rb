@@ -24,6 +24,7 @@ def now_serving(array)
     puts array[0]
     array.shift
   end
+  return array
 end
 
-line(["om","j","p"])
+now_serving(["om","j","p"])
