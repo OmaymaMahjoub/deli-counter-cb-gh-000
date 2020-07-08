@@ -13,6 +13,7 @@ def line(array)
     print " #{number}. #{name}"
     number+=1
   end
+  print "\n"
 end
 end
 
