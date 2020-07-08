@@ -1,6 +1,8 @@
 # Write your code here.
 def take_a_number(array, name)
-  puts "Welcome, #{name}. You are number #{array.size+1} in line."
+  array.push(name)
+  puts "Welcome, #{name}. You are number #{array.size} in line."
+  return array
 end
 
 def line(array)
