@@ -26,4 +26,3 @@ def now_serving(array)
   end
   return array
 end
-
